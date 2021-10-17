@@ -1,0 +1,236 @@
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+}
+
+div.jumbotron.hero-nature {
+  background-image: url('../../assets/img/architect-at-the-construction.jpg');
+}
+
+div.jumbotron.hero-photography {
+  background-image: url('../../assets/img/architects-and-worker.jpg');
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0 #048f83!important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #016090;
+  border-color: #016090;
+}
+
+.btn.btn-primary {
+  background-color: #048f83!important;
+  /*border-color: #048f83!important;*/
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
+  background-color: #a0531e !important;
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.hero-button.plat:hover {
+  background-color: #da7d3e;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 0 5px 0.10rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.hero-button.plat::hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.hero-button.plat {
+  border-radius: 30px;
+  width: 200px;
+  padding: 15px;
+  font-size: 1.3rem;
+  background-color: transparent;
+  border-width: 2px;
+  transition: 0.3s all ease-in-out;
+  color: #010606;
+  border-color: #da7d3e;
+}
+
+.section-heading {
+}
+
+h2.section-heading {
+  /*margin-bottom: 75px !important;*/
+}
+
+#portfolio img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.fa.fa-caret-right {
+  margin-right: 8px;
+}
+
+li.list-group-item {
+  font-weight: bolder;
+}
+
+#aboutus {
+  padding: 120px 20px 150px 20px;
+  margin: 1px;
+}
+
+.quotes {
+  font-size: x-large;
+}
+
+.sub-heading {
+  margin-top: 20px;
+  color: grey;
+}
+
+.right-quote-span {
+}
+
+em {
+}
+
+a {
+  color: inherit;
+}
+
+.hero-button.plat:focus {
+  box-shadow: none;
+}
+
+#name {
+}
+
+#success {
+  color: green;
+}
+
+#failure {
+  color: red;
+}
+
+.contact-details {
+  color: #fff;
+}
+
+iframe {
+  height: 400px;
+}
+
+.office-details-hr {
+}
+
+.fa-stack.fa-4x:hover .fa-circle {
+  color: #da7d3e !important;
+}
+
+.fa-stack.fa-4x:hover {
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #da7d3e;
+  color: white;
+  border-radius: 15px;
+  font-size: x-large;
+}
+
+.submit-button:hover {
+  background-color: rgba(218, 125, 62, 0.5);
+  color: white !important;
+}
+
+.social-buttons li {
+  display: block;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .social-buttons li {
+    text-align: center;
+    /*margin-left: 0;*/
+  }
+}
+
+.team-icons-container {
+  background: black;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa.fa-phone.team-icon {
+  font-size: 22px;
+  justify-content: center;
+  text-align: center;
+}
+
+.our-team-icons {
+  display: block !important;
+  margin: auto;
+}
+
+#slide1 {
+  background-image: url('../../assets/img/architect-at-the-construction.jpg');
+}
+
+#slide2 {
+  background-image: url('../../assets/img/architects-and-worker.jpg');
+}
+
+#slide3 {
+  background-image: url('../../assets/img/hero-background-technology.jpg');
+}
+
+.info-mail a {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.info-mail {
+  text-align: center;
+}
+

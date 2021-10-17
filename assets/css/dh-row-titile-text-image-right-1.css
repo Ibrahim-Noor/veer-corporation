@@ -1,0 +1,19 @@
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+audio, canvas, img, video {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+img {
+  border-style: none;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
