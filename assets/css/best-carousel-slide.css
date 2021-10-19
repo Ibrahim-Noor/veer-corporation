@@ -9,11 +9,11 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background-image: url('../../assets/img/architect-at-the-construction.jpg');
+  background-image: url('carousel/architect-at-the-construction.jpg');
 }
 
 div.jumbotron.hero-photography {
-  background-image: url('../../assets/img/architects-and-worker.jpg');
+  background-image: url('carousel/architects-and-worker.jpg');
 }
 
 h1.hero-title, h2.hero-title, h3.hero-title {
@@ -209,28 +209,100 @@ iframe {
 }
 
 .our-team-icons {
-  display: block !important;
-  margin: auto;
+  display: inline-block !important;
+  margin-left: 17%;
+  margin-right: 10px;
 }
 
 #slide1 {
-  background-image: url('../../assets/img/architect-at-the-construction.jpg');
+  background-image: url('../../assets/img/carousel/slide1-forest.jpg');
 }
 
 #slide2 {
-  background-image: url('../../assets/img/architects-and-worker.jpg');
+  background-image: url('../../assets/img/carousel/slide2-container.jpg');
 }
 
 #slide3 {
-  background-image: url('../../assets/img/hero-background-technology.jpg');
+  background-image: url('../../assets/img/carousel/slide3-paper.jpg');
 }
 
 .info-mail a {
   text-decoration: none;
-  font-size: 40px;
+  display: inline-flex;
+  vertical-align: middle;
 }
 
 .info-mail {
   text-align: center;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.team-item-div {
+  display: flex;
+  /*justify-content: center;*/
+}
+
+.team-item-div span {
+  display: flex;
+  align-items: center;
+}
+
+.nav-contact-link {
+  background-color: rgba(251, 209, 55, 1);
+  border-radius: 50px;
+  white-space: nowrap;
+  font-size: 16px !important;
+  outline: none;
+  border: none;
+}
+
+.nav-contact-link:hover {
+  background-color: #fff;
+  color: #da7d3e !important;
+}
+
+.navbar-collapse-center {
+}
+
+.navbar-collapse li {
+  text-align: center;
+}
+
+.navbar-brand-name {
+  color: white !important;
+  font-family: serif !important;
+  font-weight: bold;
+  margin-left: 7px;
+  font-size: xx-large;
+}
+
+@media (max-width: 992px) {
+  .info-mail {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .info-mail {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-brand-name {
+    font-size: 18px;
+  }
+}
+
+.nav-contact-button {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-contact-link.active {
+  background-color: white;
+  color: #da7d3e !important;
 }
 
