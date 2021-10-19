@@ -17,3 +17,50 @@
   }
 }
 
+.info-mail a:hover i {
+  background-color: #da7d3e;
+}
+
+.info-mail a:hover {
+  color: #fff;
+  font-weight: bold;
+}
+
+.contact-details {
+  color: #fff;
+}
+
+iframe {
+  height: 400px;
+}
+
+.submit-button {
+  background-color: #da7d3e;
+  color: white;
+  border-radius: 15px;
+  font-size: x-large;
+}
+
+.info-mail a {
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.info-mail {
+  text-align: center;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+@media (max-width: 992px) {
+  .info-mail {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .info-mail {
+    font-size: 18px;
+  }
+}
+

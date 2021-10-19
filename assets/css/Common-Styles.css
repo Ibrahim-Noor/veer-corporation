@@ -1,19 +1,3 @@
-h1.hero-title, h2.hero-title, h3.hero-title {
-  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
-  color: #fff;
-}
-
-p.hero-subtitle {
-  max-width: 600px;
-  margin: 25px auto;
-  padding: 10px 15px;
-  color: #fff;
-}
-
-.plat {
-  border-radius: 0px;
-}
-
 .btn-primary.focus, .btn-primary:focus {
   box-shadow: 0 0 0 0 #048f83!important;
 }
@@ -38,36 +22,6 @@ span {
   font-weight: inherit;
 }
 
-.hero-button.plat:hover {
-  background-color: #da7d3e;
-  cursor: pointer;
-  color: #fff;
-  box-shadow: 0 0 5px 0.10rem rgba(0, 0, 0, 0.5) !important;
-}
-
-.hero-button.plat::hover {
-  cursor: pointer;
-  background-color: red;
-}
-
-.hero-button.plat {
-  border-radius: 30px;
-  width: 200px;
-  padding: 15px;
-  font-size: 1.3rem;
-  background-color: rgba(230, 230, 210, 0.4);
-  border-width: 2px;
-  transition: 0.3s all ease-in-out;
-  color: #010606;
-  border-color: #da7d3e;
-}
-
-#portfolio img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
 .fa.fa-caret-right {
   margin-right: 8px;
 }
@@ -76,26 +30,12 @@ li.list-group-item {
   font-weight: bolder;
 }
 
-#aboutus {
-  padding: 120px 20px 150px 20px;
-  margin: 1px;
-}
-
 .quotes {
   font-size: x-large;
 }
 
-.sub-heading {
-  margin-top: 20px;
-  color: grey;
-}
-
 a {
   color: inherit;
-}
-
-.hero-button.plat:focus {
-  box-shadow: none;
 }
 
 #success {
@@ -106,161 +46,12 @@ a {
   color: red;
 }
 
-.contact-details {
-  color: #fff;
+img {
+  border-style: none;
 }
 
-iframe {
-  height: 400px;
-}
-
-.fa-stack.fa-4x:hover .fa-circle {
-  color: #da7d3e !important;
-}
-
-.fa-stack.fa-4x:hover {
-  cursor: pointer;
-}
-
-.submit-button {
-  background-color: #da7d3e;
-  color: white;
-  border-radius: 15px;
-  font-size: x-large;
-}
-
-.submit-button:hover {
-  background-color: rgba(218, 125, 62, 0.5);
-  color: white !important;
-}
-
-.social-buttons li {
-  display: block;
-  margin-bottom: 6px;
-  text-align: center;
-}
-
-@media screen and (max-width: 768px) {
-  .social-buttons li {
-    text-align: center;
-  }
-}
-
-.team-icons-container {
-  background: black;
-  color: #fff;
-  padding: 12px;
-  border-radius: 50%;
-  justify-content: center;
-  text-align: center;
-}
-
-.fa.fa-phone.team-icon {
-  font-size: 22px;
-  justify-content: center;
-  text-align: center;
-}
-
-.our-team-icons {
-  text-decoration: none;
-  margin: 5px auto;
-  display: block;
-}
-
-#slide1 {
-  background-image: url('../../assets/img/carousel/slide1-forest.jpg');
-}
-
-#slide2 {
-  background-image: url('../../assets/img/carousel/slide2-container.jpg');
-}
-
-#slide3 {
-  background-image: url('../../assets/img/carousel/slide3-paper.jpg');
-}
-
-.info-mail a {
-  text-decoration: none;
-  vertical-align: middle;
-}
-
-.info-mail {
-  text-align: center;
-  font-size: 40px;
-  vertical-align: middle;
-}
-
-.team-item-div {
-  text-align: center;
-  font-size: 17px;
-  margin-bottom: 10px;
-}
-
-.team-item-div span {
-  margin-left: 7px;
-  display: inline-block;
-  border-left: 1px solid #cba72b;
-  padding: 0 10px;
-}
-
-.nav-contact-link {
-  background-color: rgba(251, 209, 55, 1);
-  border-radius: 50px;
-  white-space: nowrap;
-  font-size: 16px !important;
-  outline: none;
-  border: none;
-}
-
-.nav-contact-link:hover {
-  background-color: #fff;
-  color: #da7d3e !important;
-}
-
-.navbar-collapse li {
-  text-align: center;
-}
-
-.navbar-brand-name {
-  color: white !important;
-  font-family: serif !important;
-  font-weight: bold;
-  margin-left: 7px;
-  font-size: xx-large;
-}
-
-@media (max-width: 992px) {
-  .info-mail {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 300px) {
-  .info-mail {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 300px) {
-  .navbar-brand-name {
-    display: none;
-  }
-}
-
-@media (max-width: 400px) {
-  .navbar-brand-name {
-    font-size: 18px;
-  }
-}
-
-.nav-contact-button {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.nav-contact-link.active {
-  background-color: white;
-  color: #da7d3e !important;
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 

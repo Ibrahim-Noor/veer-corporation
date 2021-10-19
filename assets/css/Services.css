@@ -1,0 +1,8 @@
+.fa-stack.fa-4x:hover .fa-circle {
+  color: #da7d3e !important;
+}
+
+.fa-stack.fa-4x:hover {
+  cursor: pointer;
+}
+

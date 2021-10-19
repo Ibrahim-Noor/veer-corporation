@@ -53,3 +53,50 @@ div.jumbotron.carousel-hero {
   z-index: 2;
 }
 
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.hero-button.plat:hover {
+  background-color: #da7d3e;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0 0 5px 0.10rem rgba(0, 0, 0, 0.5) !important;
+}
+
+.hero-button.plat {
+  border-radius: 30px;
+  width: 200px;
+  padding: 15px;
+  font-size: 1.3rem;
+  background-color: rgba(230, 230, 210, 0.4);
+  border-width: 2px;
+  transition: 0.3s all ease-in-out;
+  color: #010606;
+  border-color: #da7d3e;
+}
+
+.hero-button.plat:focus {
+  box-shadow: none;
+}
+
+#slide1 {
+  background-image: url('../../assets/img/carousel/slide1-forest.jpg');
+}
+
+#slide2 {
+  background-image: url('../../assets/img/carousel/slide2-container.jpg');
+}
+
+#slide3 {
+  background-image: url('../../assets/img/carousel/slide3-paper.jpg');
+}
+

@@ -1,0 +1,48 @@
+.team-icons-container {
+  background: black;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa.fa-phone.team-icon {
+  font-size: 22px;
+  justify-content: center;
+  text-align: center;
+}
+
+.our-team-icons span {
+  border-left: 1px solid #fec503;
+  margin-left: 8px;
+  padding: 0 0 0 5px;
+}
+
+.our-team-icons i {
+  font-size: 20px;
+}
+
+.our-team-icons:hover span {
+  border-left: 2px solid #da7d3e;
+}
+
+.team-item-div span {
+  margin-left: 7px;
+  display: inline-block;
+  border-left: 1px solid #cba72b;
+  padding: 0 10px;
+}
+
+.team-item-div {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.our-team-icons {
+  text-decoration: none;
+  margin: 5px auto;
+  display: block;
+}
+
