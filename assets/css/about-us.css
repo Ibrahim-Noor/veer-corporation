@@ -36,3 +36,7 @@ img {
   font-weight: bold;
 }
 
+.info-mail a:hover i {
+  background-color: #da7d3e;
+}
+
