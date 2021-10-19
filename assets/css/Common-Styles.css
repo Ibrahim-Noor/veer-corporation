@@ -1,21 +1,3 @@
-div.jumbotron.carousel-hero {
-  color: #fff;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-bottom: 0;
-}
-
-div.jumbotron.hero-nature {
-  background-image: url('carousel/architect-at-the-construction.jpg');
-}
-
-div.jumbotron.hero-photography {
-  background-image: url('carousel/architects-and-worker.jpg');
-}
-
 h1.hero-title, h2.hero-title, h3.hero-title {
   text-shadow: 0 3px 3px rgba(0,0,0,0.4);
   color: #fff;
@@ -44,20 +26,11 @@ p.hero-subtitle {
 
 .btn.btn-primary {
   background-color: #048f83!important;
-  /*border-color: #048f83!important;*/
 }
 
 .btn-primary.focus, .btn-primary:focus {
   box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);
   background-color: #a0531e !important;
-}
-
-* {
-  /*box-sizing: inherit;*/
-}
-
-*:before, *:after {
-  /*box-sizing: inherit;*/
 }
 
 span {
@@ -89,13 +62,6 @@ span {
   border-color: #da7d3e;
 }
 
-.section-heading {
-}
-
-h2.section-heading {
-  /*margin-bottom: 75px !important;*/
-}
-
 #portfolio img {
   width: 100%;
   height: 300px;
@@ -124,21 +90,12 @@ li.list-group-item {
   color: grey;
 }
 
-.right-quote-span {
-}
-
-em {
-}
-
 a {
   color: inherit;
 }
 
 .hero-button.plat:focus {
   box-shadow: none;
-}
-
-#name {
 }
 
 #success {
@@ -155,9 +112,6 @@ a {
 
 iframe {
   height: 400px;
-}
-
-.office-details-hr {
 }
 
 .fa-stack.fa-4x:hover .fa-circle {
@@ -189,7 +143,6 @@ iframe {
 @media screen and (max-width: 768px) {
   .social-buttons li {
     text-align: center;
-    /*margin-left: 0;*/
   }
 }
 
@@ -209,9 +162,9 @@ iframe {
 }
 
 .our-team-icons {
-  display: inline-block !important;
-  margin-left: 17%;
-  margin-right: 10px;
+  text-decoration: none;
+  margin: 5px auto;
+  display: block;
 }
 
 #slide1 {
@@ -228,7 +181,6 @@ iframe {
 
 .info-mail a {
   text-decoration: none;
-  display: inline-flex;
   vertical-align: middle;
 }
 
@@ -239,13 +191,16 @@ iframe {
 }
 
 .team-item-div {
-  display: flex;
-  /*justify-content: center;*/
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
 
 .team-item-div span {
-  display: flex;
-  align-items: center;
+  margin-left: 7px;
+  display: inline-block;
+  border-left: 1px solid #cba72b;
+  padding: 0 10px;
 }
 
 .nav-contact-link {
@@ -260,9 +215,6 @@ iframe {
 .nav-contact-link:hover {
   background-color: #fff;
   color: #da7d3e !important;
-}
-
-.navbar-collapse-center {
 }
 
 .navbar-collapse li {
@@ -286,6 +238,12 @@ iframe {
 @media (max-width: 300px) {
   .info-mail {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 300px) {
+  .navbar-brand-name {
+    display: none;
   }
 }
 

@@ -8,15 +8,6 @@ div.jumbotron.carousel-hero {
   margin-bottom: 0;
 }
 
-div.jumbotron.hero-nature {
-  background-image: url('hero-background-nature.jpg');
-  /*background-size: cover;*/
-}
-
-div.jumbotron.hero-photography {
-  background-image: url('hero-background-photography.jpg');
-}
-
 div.jumbotron.hero-technology {
   height: 750px;
 }
@@ -31,5 +22,15 @@ p.hero-subtitle {
   margin: 25px auto;
   padding: 10px 15px;
   color: #fff;
+}
+
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
 }
 
