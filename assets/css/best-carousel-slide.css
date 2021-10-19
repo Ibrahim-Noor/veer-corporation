@@ -82,7 +82,7 @@ span {
   width: 200px;
   padding: 15px;
   font-size: 1.3rem;
-  background-color: transparent;
+  background-color: rgba(230, 230, 210, 0.4);
   border-width: 2px;
   transition: 0.3s all ease-in-out;
   color: #010606;
