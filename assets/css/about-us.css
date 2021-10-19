@@ -1,16 +1,8 @@
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
   vertical-align: middle;
 }
 
-audio,
-canvas,
-img,
-video {
+audio, canvas, img, video {
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
@@ -47,3 +39,4 @@ img {
 .info-mail a:hover i {
   background-color: #da7d3e;
 }
+
